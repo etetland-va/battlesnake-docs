@@ -6,7 +6,11 @@ categories: [doc]
 
 This document will allow you to start developing a Battlesnake snake AI using Golang programming language.
 
+---
+
 ## Step 1 - Get stated with Gitpod
+
+---
 
 ### Step 1.1 - Create a GitHub account
 
@@ -16,11 +20,15 @@ Your snake's source code will be stored on GitHub. It will be publicly available
 
 Go to https://github.com/join to create an account, and choose the free option.
 
+---
+
 ### Step 1.2 - Fork the starter snake repository
 
 Forking a GitHub repo lets you copy source code from an open source project to your own GitHub repo.
 
 There is a repo that contains example Golang code to run a very basic battle snake, and you can fork it here: https://github.com/battlesnakeio/starter-snake-go/fork
+
+---
 
 ### Step 1.3 - Start Gitpod
 
@@ -32,13 +40,19 @@ gitpod.io/#github.com/`<your-username>`/starter-snake-go
 
 You'll need to be logged into GitHub with the same username, and give it permission to your account.
 
+---
+
 ### Step 1.4 - Start your snake
 
 Once you're in Gitpod, you can run the starter snake. Type `make run` in the terminal console and hit enter.
 
 It will tell you that an application is running on port 9000, and show a button that says `Open Browser`. Hit that button and copy the URL that it goes to. You'll need that later; it is the URL of snake.
 
+---
+
 # Step 2 - Create a battlesnake game
+
+---
 
 ### Step 2.1 - Add your snake
 
@@ -46,15 +60,21 @@ Now that the starter snake is running, you can put it in the ring!
 
 Go to play.battlesnake.io, go to `My Snakes` (log in with your GitHub), and `Add a Snake`. Choose your name, and use the URL from step 1.4.
 
+---
+
 ### Step 2.2 - Create a game
 
 on play.battlesnake.io, go to `Create a game`. On the field `Add snakes to the pit`, search for the snake name you just made and click `Add`. You can add other snakes too.
 
 click `Create Game` and it will go into the player. At the bottom of the player, hit `play`. Your snake should go straight to the bottom, since that's all the starter snake knows how to do.
 
+---
+
 # Step 3 - Improve your snake
 
 Now you can make your AI snake do something more intelligent!
+
+---
 
 ### Step 3.1 - Modify some code
 
@@ -91,11 +111,15 @@ func Move(res http.ResponseWriter, req *http.Request) {
 }
 ```
 
+---
+
 ### Step 3.2 - See it in action!
 
 In the terminal, cancel the last `make run` command by hitting ctrl-c. Then start `make run` again. Now it will be running the new code.
 
 In play.battlesnake.io, hit the back button to go back to `Create Game` and run it with your snake in the ring again. Now it should be doing something slightly more interesting.
+
+---
 
 ### Step 3.3 - Save your changes
 
@@ -110,6 +134,8 @@ git push
 (You can make your own commit message in the double quotes)
 
 You will need to give additional permissions to Gitpod so that it can write to your repo. Then run `git push` again.
+
+---
 
 # Step 4 - Get competitive
 
