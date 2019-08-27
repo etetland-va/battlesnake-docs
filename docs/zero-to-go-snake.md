@@ -105,6 +105,9 @@ func Move(res http.ResponseWriter, req *http.Request) {
 	if yourHeadCoord.X > 8 && yourHeadCoord.Y < 8 {
 		moveDirection = "down"
 	}
+	if decoded.Turn > 100 {
+		moveDirection = "left"
+	}
 
 	respond(res, api.MoveResponse{
 		Move: moveDirection,
