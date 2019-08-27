@@ -109,7 +109,7 @@ git push
 ```
 (You can make your own commit message in the double quotes)
 
-You will need to give additional permissions to Gitpod so that it can write to your repo.
+You will need to give additional permissions to Gitpod so that it can write to your repo. Then run `git push` again.
 
 # Step 4 - Get competitive
 
