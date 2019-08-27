@@ -81,11 +81,8 @@ func Move(res http.ResponseWriter, req *http.Request) {
 	if decoded.You.Body[0].Y < 3 {
 		moveDirection = "right"
 	}
-	if decoded.You.Body[0].X > 8 {
+	if decoded.You.Body[0].X > 8 && decoded.You.Body[0].Y < 8 {
 		moveDirection = "down"
-	}
-	if decoded.You.Body[0].Y > 8 && decoded.You.Body[0].X > 3 {
-		moveDirection = "left"
 	}
 
 	respond(res, api.MoveResponse{
