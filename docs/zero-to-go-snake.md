@@ -141,3 +141,5 @@ You will need to give additional permissions to Gitpod so that it can write to y
 # Step 4 - Get competitive
 
 Keep repeating step 3 with your own changes until you have the best snake!
+
+When a tournament starts, make sure your Gitpod workspace is running. It will timeout after 30 minutes (10 minutes if you close the window), and you will have to start it again. If it stops when a game is started, your snake will not respond and lose immediately!
