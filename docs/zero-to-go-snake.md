@@ -46,7 +46,7 @@ Now that the starter snake is running, you can put it in the ring!
 
 Go to play.battlesnake.io, go to `My Snakes` (log in with your GitHub), and `Add a Snake`. Choose your name, and use the URL from step 1.4.
 
-### 2.2 - Create a game
+### Step 2.2 - Create a game
 
 on play.battlesnake.io, go to `Create a game`. On the field `Add snakes to the pit`, search for the snake name you just made and click `Add`. You can add other snakes too.
 
@@ -91,13 +91,13 @@ func Move(res http.ResponseWriter, req *http.Request) {
 }
 ```
 
-Step 3.2 - See it in action!
+### Step 3.2 - See it in action!
 
 In the terminal, cancel the last `make run` command by hitting ctrl-c. Then start `make run` again. Now it will be running the new code.
 
 In play.battlesnake.io, hit the back button to go back to `Create Game` and run it with your snake in the ring again. Now it should be doing something slightly more interesting.
 
-Step 3.3 - Save your changes
+### Step 3.3 - Save your changes
 
 To keep your changes on your GitHub repo, you'll need to commit and push the changes.
 
